@@ -1,4 +1,7 @@
+#Analyse the effect of various firm characteristics on sales
+#Summary statistics (mean, median, minimum, maximum etc.)
 summary(hse1)   
+#Histograms for main variables of interest
 hist(hse1$industry)
 hist(hse1$size)
 hist(hse1$n_employees)
